@@ -1,0 +1,25 @@
+{
+  "name": "javascript-testing",
+  "version": "0.0.0",
+  "description": "Testing in JavaScript using Mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atassani/javascript-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atassani/javascript-testing/issues"
+  },
+  "homepage": "https://github.com/atassani/javascript-testing#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "express": "^4.14.0",
+    "mocha": "^3.2.0",
+    "request": "^2.79.0"
+  }
+}
